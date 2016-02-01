@@ -1,0 +1,9 @@
+[php]# использование кеша браузеров
+FileETag MTime Size
+ExpiresActive on
+ExpiresDefault Уaccess plus 1 yearФ
+[/php]
+[php]#«апрет отдачи HTTP-заголовков Vary браузерам семейства MSIE
+BrowserMatch УMSIEФ force-no-vary
+BrowserMatch УMozilla/4.[0-9]{2}Ф force-no-vary
+[/php]
